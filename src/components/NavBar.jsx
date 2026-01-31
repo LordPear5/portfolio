@@ -1,10 +1,15 @@
-import NavBarLink from "./NavBarLink";
+import { Link } from "wouter";
 
-export default function NavBar() {
+export default function Navbar() {
   return (
-    <nav>
-      <NavBarLink to="/countries">Countries list</NavBarLink>
-      <NavBarLink to="/cities">Cities list</NavBarLink>
+    <nav className="nav">
+      <h2 className="logo">Welcome to my corner</h2>
+
+      <div id="nav-list">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/gallery">Gallery</Link>
+      </div>
     </nav>
   );
 }
