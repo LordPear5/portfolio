@@ -3,11 +3,10 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <Router base="/portfolio/">
       <Navbar />
       <Switch>
         <Route path="/">

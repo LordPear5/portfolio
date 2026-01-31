@@ -62,7 +62,7 @@ body {
 }
 
 .paralax-image {
-  background-image: url("impression-sunrise.jpg");
+  background-image: url("/impression-sunrise.jpg");
   min-height: var(--full-height-no-nav);
   background-attachment: fixed;
   background-position: center;
