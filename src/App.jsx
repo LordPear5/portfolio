@@ -2,7 +2,7 @@ import { Route, Switch, Router } from "wouter";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (
